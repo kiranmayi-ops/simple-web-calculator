@@ -10,7 +10,7 @@
         <input type="text" id="display" readonly>
         <div class="button-container">
             
-            <!-- Clear Button -->
+            
             <button class="button" onclick="
                 currentDisplay='';
                 document.querySelector('#display').value=currentDisplay;
@@ -52,7 +52,7 @@
             <button class="button" onclick="currentDisplay=currentDisplay+'/';
             document.querySelector('#display').value=currentDisplay;">/</button>
 
-            <!-- Equal Button  -->
+           
             <button class="button" onclick="
                 currentDisplay=eval(currentDisplay);
                 document.querySelector('#display').value=currentDisplay;
@@ -64,7 +64,7 @@
             <button class="button" onclick="currentDisplay=currentDisplay+'0';
             document.querySelector('#display').value=currentDisplay;">0</button>
 
-            <!-- Dot button FIXED (removed extra quote) -->
+            
             <button class="button" onclick="currentDisplay=currentDisplay+'.';
             document.querySelector('#display').value=currentDisplay;">.</button>
 
